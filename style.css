@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+.heading-section {
+  background-color: #fbf1e6;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #d97706;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* Navigation */
+
+li {
+  list-style: none;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 16px 120px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-a-link:link,
+.nav-a-link:visited {
+  transition: 0.3s;
+}
+
+.nav-a-link:hover,
+.nav-a-link:active {
+  color: #d97706;
+}
+
+.nav-link {
+  display: flex;
+  gap: 30px;
+}
+
+.end {
+  color: white !important;
+}
+
+.logo {
+  width: 80px;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  width: 1300px;
+  margin: 16px auto;
+  gap: 32px;
+}
+
+.hero-heading {
+  font-size: 54px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 52px;
+}
+.text-section {
+  align-self: center;
+  padding: 8px 16px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+
+.button-link:link,
+.button-link:visited {
+  background-color: #d97706;
+  padding: 10px 20px;
+  margin-right: 16px;
+  color: white !important;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.button-link:hover,
+.button-link:active {
+  background-color: #c36b05;
+}
+
+.button-link2:link,
+.button-links2:visited {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.button-link2:hover,
+.button-links2:active {
+  color: #c36b05;
+}
+
+/* Feature */
+
+.container {
+  width: 1400px;
+  margin: 100px auto;
+}
+
+.feature-heading {
+  margin-top: 54px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.feature {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.feature-icon {
+  margin-bottom: 8px;
+  font-size: 24px;
+  padding: 12px 12px;
+  background-color: #d97706;
+  color: white;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+.feature-text {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+/* Meet the dogs section */
+
+.meet-dogs {
+  background-color: #fbf1e6;
+}
+.meet-dogs-container {
+  padding: 32px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  /* align-items: stretch; */
+  overflow: hidden;
+  gap: 24px;
+  padding: 16px;
+}
+
+.gallery-img {
+  display: block;
+  width: 380px;
+  height: 262.42px;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  display: block;
+  width: 380px;
+  height: 262.42px;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+
+.gallery-img img:hover {
+  transform: scale(1.2);
+}
+
+.meet-dogs-text {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 8px;
+  text-align: center;
+  color: #555;
+}
+
+div p {
+  display: flex;
+  justify-content: center;
+}
+
+.meet-dogs-text:link,
+.meet-dogs-text:visited {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 8px;
+  color: #555;
+  transition: 0.3s;
+}
+
+.meet-dogs-text:hover,
+.meet-dogs-text:active {
+  color: #c36b05;
+}
+
+/* CTA Section */
+
+.cta {
+  width: 900px;
+  display: flex;
+  background-image: linear-gradient(to right bottom, #dd851f, #e19238);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cta-text-container {
+  width: 60%;
+  padding: 48px;
+}
+
+.cta-heading {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+.cta-text {
+  /* margin-bottom: px; */
+  color: rgba(18, 16, 16, 0.956);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.cta-image-container {
+  width: 40%;
+  height: 350px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(221, 132, 31, 0.305),
+      rgba(225, 146, 56, 0.304)
+    ),
+    url("img/dog9.webp");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+.cta-img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.cta-link:link,
+.cta-link:visited {
+  margin-top: 50px;
+  background-color: #6d3c03;
+  padding: 12px 32px;
+  color: white !important;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.cta-link:hover,
+.cta-link:active {
+  background-color: #985304;
+}
+
+.footer {
+  height: 54px;
+  background-color: #fbf1e6;
+}
+
+.footer-text {
+  padding-top: 16px;
+  text-align: center;
+}
